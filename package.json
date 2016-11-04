@@ -1,0 +1,31 @@
+{
+  "name": "watchmen-ping-http-get",
+  "productName": "Electron",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.78.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "0.0.1",
+  "description": "watchmen ping http get",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/desoares1975/watchmen-ping-http-get.git"
+  },
+  "keywords": [
+    "watchmen-ping-http-get"
+  ],
+  "author": "desoares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desoares1975/watchmen-ping-http-get/issues"
+  },
+  "homepage": "https://github.com/desoares1975/watchmen-ping-http-get#readme"
+}

@@ -1,15 +1,10 @@
 {
   "name": "watchmen-ping-http-get",
-  "productName": "Electron",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.14.0",
     "request": "^2.78.0"
   },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "watchmen ping http get",
   "directories": {
     "test": "test"

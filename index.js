@@ -6,7 +6,7 @@ PingService.prototype.ping = (service, callback) => {
     let startTime = +new Date();
     request.get({
         method: 'GET',
-        uri: service.uri
+        uri: service.url + ':' + service.port
     }, (err, response, body) => {
         return callback(err, body, response, +new Date() - startTime);
     });
